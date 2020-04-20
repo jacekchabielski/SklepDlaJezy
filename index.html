@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Wszystko dla jeży</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	
+	
+
+	
+</head>
+
+<body>
+	<header>
+		
+		<nav class = "navbar navbar-dark bg-primary navbar-expand-sm">
+				<a class = "navbar-brand" href = "index.html"><img src="img/logo.png" width=40 height="40" class = "d-inline-block mr-1">jeżyk</a>
+				
+				<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="mainmenu"> 
+						<ul class="nav navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button">Kategorie</a>
+
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Karmy dla jeża</a>
+									<a class="dropdown-item" href="#">Terraria dla jeży</a>
+									<a class="dropdown-item" href="#">Kuwety</a>
+									<a class="dropdown-item" href="#">Jeż w podróży</a>
+								</div>
+
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Promocje</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Nowości</a>
+							</li>
+							</ul>
+
+							<!-- prawa strona navbara -->
+								<ul class="nav navbar-nav navbar-right ml-auto ">
+									
+									<li class="nav-item dropdown"> <!--logowanie-->
+										<a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/ikona_logowanie.png"></a>
+
+										<div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+											<form class="form-horizontal" method="post" accept-charset="UTF-8">
+												<input class="form-control login" type="text" name="username" placeholder="login"><br>
+												<input class="form-control login" type="password" name="password" placeholder="hasło"><br>
+												<input class="btn btn-primary" type="submit" name="submit" value="Login">
+											</form>
+										</div>
+									</li>
+									<li ><a href="rejestracja.html  "target="_blank" id="rejestracja"> zarejestruj sie </a></li>
+									<li ><a href="koszyk.html  "target="_blank" id="koszyk"><img src="img/shopping.png" width=30 height="30"> </a></li>
+								</ul>
+					
+				</div>
+		</nav>
+		
+		</header>
+	<main>
+		
+	<article>
+		<div class="container">
+			<div class="row"> <!--menu po lewej stronie -->
+				<aside class="col-lg-3 bg-white text-body p-4 my-5  d-none d-sm-block">
+					
+					<ul class="list-group">
+						<h4 class="list-group-item" id="napis">kategoria</h4>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action ">Karmy dla jeża</a>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action">Terraria dla jeży</a>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action">Kuwety</a>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action">Jeż w podróży</a>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action">Jeż na wakacjach</a>
+						<a href="#" class="list-group-item list-group-item-dark list-group-item-action">pielęgnacja jeża</a>
+						
+
+					</ul>
+				</aside>
+				<div class="col-lg-1 "></div> <!--przerwa pomiedzy menu a divem z reklama -->
+				
+				<div class="col-lg-8  text-body p-3 my-5">
+
+					<div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img class="d-block w-100" src="img/z1.png" alt="First slide">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="img/z2.png" alt="Second slide">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="img/z3.png" alt="Third slide">
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Next</span>
+						</a>
+					  </div>
+					  <div class="col-lg-12 text-body p-3 my-5" id="drugi"><!--tutaj ten drugi element byc musi-->
+						<h4 class="list-group-item" id="napis">Nasze najnowsze produkty </h4>
+						<p>Mata dla twojego jeżyka !</p>
+						<a href="kocyk_jednorozce.html"><img src="img/produkt.jpg" class="img-fluid" alt="Responsive image"></a>
+						
+					  </div> 
+				</div>
+				
+				
+			</div>
+		</div>
+	</article>
+				
+		
+	</main>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>

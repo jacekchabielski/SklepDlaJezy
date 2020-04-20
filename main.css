@@ -1,0 +1,64 @@
+body
+{
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.list-group-item-dark
+{
+	background-color: white;
+	border-style:none;
+	
+}
+
+.list-group-item-dark:hover
+{
+	background-color: #007bff !important;
+
+	
+}
+
+.list-group.active
+{
+	background-color: #007bff !important;
+
+}
+#napis{
+	background-color:silver;
+	margin-bottom:15px;
+	
+}
+#tytul_produktu{
+	color:white;
+}
+.col-lg-3 {
+	border-radius: 1%;
+}
+p{
+	color:white;
+}
+
+#drugi{
+	
+	border: 1px solid white;
+	box-shadow: 1px 2px 5px rgba(255, 255, 255, 0.877); 
+}
+
+#rejestracja{
+	color:white;
+}
+
+#promocje{
+	color:wheat;
+}
